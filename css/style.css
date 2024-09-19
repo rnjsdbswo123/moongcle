@@ -17,28 +17,33 @@
             background-size: 100% auto; /* 너비는 100%, 높이는 비율에 따라 자동 조정 */
             background-repeat: no-repeat;
         }
+
         .camerabox{
             width:100%;
             displaY:flex;
-            justify-content: center;
+            justify-content: space-around;
+
         }
         .camerabox img{
-            width:93%;
+            width:160PX;
 
             background-color: transparent;
 
         }
 
         .main .live{
+            border-radius: 20px;
+            background-color: #E5644C;
+            padding-left : 5px;
+            padding-right : 5px;
+            padding-bottom:1px;
+            margin-left:5px;
+            margin-right:5px;
 
-            background-image: url('../img/on.png');
-            padding:3px;
-            background-size: 120% 130%; /* 너비와 높이를 각각 100%로 설정 */
-            background-position: center; /* 이미지를 중앙에 위치시킴 */
-            background-repeat: no-repeat; /* 이미지 반복 안 함 */
         }
 
         .main p{
+            letter-spacing: 1PX;
             font-family: 'Pretendard-light';
             height:50px;
             font-weight: 500;
@@ -70,28 +75,28 @@
             font-size: 14px;
             color:white;
             position:absolute;
-            bottom:15px;
+            bottom:30px;
         }
         .camera2 span{
             font-family: 'Pretendard-regular';
             font-size: 14px;
             color:white;
             position:absolute;
-            bottom:15px;
+            bottom:30px;
         }
         .camera1 .dokdo{
             position:absolute;
-            width:60%;
-            top: 26%;
-            left: 20%;
+            width:50%;
+            top: 30%;
+            left: 25%;
 
         }
 
         .camera2 .kbs{
-            width:60%;
+            width:50%;
             position:absolute;
-            top: 26%;
-            left: 20%;
+            top: 30%;
+            left: 25%;
         }
         .mainbox{
             padding-top: 10px;
@@ -101,7 +106,7 @@
             z-index: 1;
             margin-left:auto;
             margin-right:auto;
-            margin-top:15px;
+            margin-top:5px;
             width:87%;
             background-color: #1E3751;
             border-radius: 8px;
@@ -116,7 +121,7 @@
         }
         .main .present{
             font-family: 'Pretendard-light';
-            font-size: 11px;
+            font-size: 13px;
             height:30px;
         }
         .logo{
@@ -127,7 +132,7 @@
         .logo img{
             padding-top: 30px;
             padding-bottom: 30px;
-            width:100px;
+            width:90px;
         }
 
         footer span{
@@ -143,11 +148,11 @@
             align-items: center;
             justify-content: center;
             background-color: #081727;
-            padding-bottom: 150px;
+            padding-bottom: 80px;
 
         }
         footer .mark{
-            left:0;
+            left:-50PX;
             bottom:0;
             width:80%;
             position: absolute;
