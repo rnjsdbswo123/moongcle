@@ -4,11 +4,12 @@
             margin: 0;
             padding: 0;
         }
-
+        header{padding-left:-2px;}
         header img{
             width:100%;
         }
         .main {
+            padding-left:-1px;
             margin-top:-70px;
             position: relative; /* 또는 absolute, fixed */
             z-index: 1;
@@ -22,11 +23,12 @@
             justify-content: center;
         }
         .camerabox img{
-            width:85%;
+            width:93%;
 
             background-color: transparent;
 
         }
+
         .main .live{
 
             background-image: url('../img/on.png');
@@ -99,10 +101,10 @@
             z-index: 1;
             margin-left:auto;
             margin-right:auto;
-            margin-top:10px;
-            width:83%;
+            margin-top:15px;
+            width:87%;
             background-color: #1E3751;
-            border-radius: 20px;
+            border-radius: 8px;
 
         }
         .box img{
@@ -141,7 +143,7 @@
             align-items: center;
             justify-content: center;
             background-color: #081727;
-            padding-bottom: 50px;
+            padding-bottom: 150px;
         }
         footer .mark{
             left:0;
