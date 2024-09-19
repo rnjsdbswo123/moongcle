@@ -11,25 +11,25 @@
         .main {
             margin-top:-70px;
             position: relative; /* 또는 absolute, fixed */
-            z-index: 0;
-            background-image: url('./img/background.png');
+            z-index: 1;
+            background-image: url('../img/background.png');
             background-size: 100% auto; /* 너비는 100%, 높이는 비율에 따라 자동 조정 */
             background-repeat: no-repeat;
         }
         .camerabox{
             width:100%;
             displaY:flex;
+            justify-content: center;
         }
         .camerabox img{
-            width:90%;
-            margin-left:5%;
-            margin-right:5%;
+            width:85%;
+
             background-color: transparent;
 
         }
         .main span{
 
-            background-image: url('./img/on.png');
+            background-image: url('../img/on.png');
             padding:3px;
             background-size: 120% 130%; /* 너비와 높이를 각각 100%로 설정 */
             background-position: center; /* 이미지를 중앙에 위치시킴 */
@@ -45,25 +45,93 @@
             justify-content: center;
             align-items: center;
         }
-        .camera{
-            position:relative
+        .camera1{
+            position:relative;
+            display: flex;
+            justify-content: center;
+            margin-left: 20px;
+            
+            
         }
-        .camera .dokdo{
+        .camera2{
+            position:relative;
+            display: flex;
+            margin-right: 20px;
+            justify-content: center;
+            
+        }
+        .camera1 .dokdo{
             position:absolute;
-            width:70%;
-            top: 25%;
-            left: 10%;
+            width:60%;
+            top: 30%;
+            left: 20%;
 
         }
 
-        .camera .kbs{
-            width:70%;
+        .camera2 .kbs{
+            width:60%;
             position:absolute;
-            top: 25%;
-            left: 10%;
+            top: 30%;
+            left: 20%;
         }
         .mainbox{
+            padding-top: 10px;
             width:100%;
+        }
+        .box{
+            z-index: 1;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:10px;
+            width:83%;
+            background-color: #1E3751;
+            border-radius: 20px;
+
+        }
+        .box img{
+            width:35px;
+            padding-top: 10px;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .main .present{
+            font-family: 'Pretendard-light';
+            font-size: 11px;
+            height:30px;
+        }
+        .logo{
+            display:flex;
+
+            justify-content: center;
+        }
+        .logo img{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            width:100px;
+        }
+
+        footer span{
+            color:#2F4A66;
+            font-size: 9px;
+            height:14px;
+        }
+        footer{
+            z-index:0;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #081727;
+            padding-bottom: 50px;
+        }
+        footer .mark{
+            left:0;
+            bottom:0;
+            width:80%;
+            position: absolute;
+            
         }
         /* 모바일용 미디어 쿼리 */
         @media (max-width: 600px) {
