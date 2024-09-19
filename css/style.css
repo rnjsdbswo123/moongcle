@@ -43,7 +43,7 @@
         }
 
         .main p{
-            letter-spacing: 1PX;
+            letter-spacing: 0.4PX;
             font-family: 'Pretendard-light';
             height:50px;
             font-weight: 500;
@@ -86,17 +86,17 @@
         }
         .camera1 .dokdo{
             position:absolute;
-            width:50%;
-            top: 30%;
-            left: 25%;
+            width:40%;
+            top: 35%;
+            left: 30%;
 
         }
 
         .camera2 .kbs{
-            width:50%;
+            width:40%;
             position:absolute;
-            top: 30%;
-            left: 25%;
+            top: 35%;
+            left: 30%;
         }
         .mainbox{
             padding-top: 10px;
@@ -159,7 +159,7 @@
             
         }
         /* 모바일용 미디어 쿼리 */
-        @media (max-width: 600px) {
+        @media (max-width: 400px) {
 
         }
 
