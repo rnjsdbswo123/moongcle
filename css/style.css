@@ -27,7 +27,7 @@
             background-color: transparent;
 
         }
-        .main span{
+        .main .live{
 
             background-image: url('../img/on.png');
             padding:3px;
@@ -37,6 +37,7 @@
         }
 
         .main p{
+            font-family: 'Pretendard-light';
             height:50px;
             font-weight: 500;
             color:white;
@@ -53,6 +54,7 @@
             
             
         }
+
         .camera2{
             position:relative;
             display: flex;
@@ -60,10 +62,25 @@
             justify-content: center;
             
         }
+
+        .camera1 span{
+            font-family: 'Pretendard-regular';
+            font-size: 14px;
+            color:white;
+            position:absolute;
+            bottom:15px;
+        }
+        .camera2 span{
+            font-family: 'Pretendard-regular';
+            font-size: 14px;
+            color:white;
+            position:absolute;
+            bottom:15px;
+        }
         .camera1 .dokdo{
             position:absolute;
             width:60%;
-            top: 30%;
+            top: 26%;
             left: 20%;
 
         }
@@ -71,7 +88,7 @@
         .camera2 .kbs{
             width:60%;
             position:absolute;
-            top: 30%;
+            top: 26%;
             left: 20%;
         }
         .mainbox{
