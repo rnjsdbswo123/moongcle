@@ -156,6 +156,7 @@
             position: absolute;
             
         }
+        a{text-decoration:none;}
         /* 모바일용 미디어 쿼리 */
         @media (max-width: 400px) {
 
