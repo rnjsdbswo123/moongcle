@@ -18,14 +18,15 @@
             background-repeat: no-repeat;
         }
 
-        .camerabox{
-            width:100%;
-            displaY:flex;
-            justify-content: space-around;
-
+        .camerabox {
+            margin-left: auto;
+            margin-right: auto;
+            width: 84vw; /* box와 동일하게 설정 */
+            display: flex;
+            justify-content: space-between;
         }
         .camerabox img{
-            width:160PX;
+            width:90%;
 
             background-color: transparent;
 
@@ -57,7 +58,6 @@
             position:relative;
             display: flex;
             justify-content: center;
-            margin-left: 20px;
             
             
         }
@@ -65,24 +65,23 @@
         .camera2{
             position:relative;
             display: flex;
-            margin-right: 20px;
             justify-content: center;
             
         }
 
         .camera1 span{
             font-family: 'Pretendard-regular';
-            font-size: 14px;
+            font-size: 3.4vw;
             color:white;
             position:absolute;
-            bottom:30px;
+            bottom:5vw;
         }
         .camera2 span{
             font-family: 'Pretendard-regular';
-            font-size: 14px;
+            font-size: 3.4vw;
             color:white;
             position:absolute;
-            bottom:30px;
+            bottom:5vw;
         }
         .camera1 .dokdo{
             position:absolute;
@@ -102,18 +101,17 @@
             padding-top: 10px;
             width:100%;
         }
-        .box{
+        .box {
             z-index: 1;
-            margin-left:auto;
-            margin-right:auto;
-            margin-top:5px;
-            width:87%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3.5vw;
+            width: 79vw; /* camerabox와 동일하게 설정 */
             background-color: #1E3751;
             border-radius: 8px;
-
         }
         .box img{
-            width:35px;
+            width:9vw;
             padding-top: 10px;
             display:block;
             margin-left:auto;
@@ -121,7 +119,7 @@
         }
         .main .present{
             font-family: 'Pretendard-light';
-            font-size: 13px;
+            font-size: 3.4vw;
             height:30px;
         }
         .logo{
@@ -169,5 +167,26 @@
                 margin-left:auto;
                 margin-right:auto;
                 max-width : 600px;
+            }
+            .camera1 span{
+                font-size:20px;
+                bottom:40px;
+            }
+            .camera2 span{
+                font-size:20px;
+                bottom:40px;
+            }
+            .mainbox .box{
+                width:505px;
+                margin-top:24px;
+            }
+            .box img{
+                width:50px;
+            }
+            .main .present{
+                font-size:20px;
+            }
+            .camerabox, .box {
+                width: 90%; /* 데스크탑에서도 동일한 비율 유지 */
             }
         }
