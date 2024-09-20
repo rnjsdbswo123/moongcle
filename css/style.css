@@ -5,6 +5,7 @@
             padding: 0;
         }
 
+        body{background-color: #081727;}
         header img{
             width:100%;
         }
@@ -37,14 +38,15 @@
             background-color: #E5644C;
             padding-left : 5px;
             padding-right : 5px;
-            padding-bottom:1px;
+            padding-bottom:3px;
+            padding-top:3px;
             margin-left:5px;
             margin-right:5px;
 
         }
 
         .main p{
-            letter-spacing: 0.4PX;
+            letter-spacing: 0.2px;
             font-family: 'Pretendard-light';
             height:50px;
             font-weight: 500;
